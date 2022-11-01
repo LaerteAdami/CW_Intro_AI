@@ -1,1 +1,3 @@
-# CW_Intro_AI
+# CW - Introduction to AI
+
+Laerte Adami - Erik Duthiers
