@@ -1,4 +1,8 @@
-def evaluate(y_pred, y_compare):
+def evaluate(y_pred, y_test):
+    
+    # Apply argmax
+    y_pred = np.argmax(y_pred,axis=1)
+    y_compare = np.argmax(y_test,axis=1)
     
     print("Accuracy with 1 hidden layer: %.2f"%accuracy_score(y_pred,y_compare))
     print("Recall with 1 hidden layer: %.2f"%recall_score(y_pred,y_compare,average="macro"))
