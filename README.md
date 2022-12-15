@@ -15,7 +15,7 @@ The dataset selected for analysis consists of measurements of fetal heart rate (
 
 The data consists of 21 numerical features for a total number of 2126 fetal cardiotocograms (CTG). These were processed automatically and the respective diagnostic features were measured. CTGs were classified by three experienced obstetricians and each was assigned a consensus classification label. 
 
-The classification was performed both with respect to a morphological pattern, consisting of 10 classes (A, B, C...), and with respect to a fetal status, consisting of 3 classes (N: neutral, S: suspect , P: pathological).
+The classification was performed both with respect to a fetal status, consisting of 3 classes (N: neutral, S: suspect , P: pathological).
 
 The the features are here listed and briefly described:
 
